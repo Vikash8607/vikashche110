@@ -1,0 +1,183 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 0;
+    background-color:rgb(220, 238, 194);
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    text-align: center;
+}
+img{
+    border-radius: 5%;
+    width:175px;
+    height:175px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#intro1{
+    position: relative;
+    top:-1920px;
+    left:1000px;
+    border: 2px solid rgb(220, 238, 194);
+    width: 40px;
+    height: 50px;
+  } 
+  #intro2{
+    position: relative;
+    top:-1760px;
+    left:1000px;
+    border: 2px solid rgb(220, 238, 194);
+    width: 40px;
+    height: 50px;
+  } 
+  #intro3{
+    position: relative;
+    top:-1600px;
+    left:1000px;
+    border: 2px solid rgb(220, 238, 194);
+    width: 40px;
+    height: 50px;
+  } 
+  #intro4{
+    position: relative;
+    top:-1430px;
+    left:1000px;
+    border: 2px solid rgb(220, 238, 194);
+    width: 40px;
+    height: 50px;
+  } 
+  #intro5{
+    position: relative;
+    top:-1230px;
+    left:1000px;
+    border: 2px solid rgb(220, 238, 194);
+    width: 40px;
+    height: 50px;
+  } 
+  #intro6{
+    position: relative;
+    top:-1070px;
+    left:1000px;
+    border: 2px solid rgb(220, 238, 194);
+    width: 40px;
+    height: 50px;
+  } 
+  #intro7{
+    position: relative;
+    top:-880px;
+    left:1000px;
+    border: 2px solid rgb(220, 238, 194);
+    width: 40px;
+    height: 50px;
+  } 
+  #intro8{
+    position: relative;
+    top:-730px;
+    left:1000px;
+    border: 2px solid rgb(220, 238, 194);
+    width: 40px;
+    height: 50px;
+  } 
+  #intro9{
+    position: relative;
+    top:-570px;
+    left:1000px;
+    border: 2px solid rgb(220, 238, 194);
+    width: 40px;
+    height: 50px;
+  } 
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Main Content */
+.guide-content {
+    padding: 2rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-top: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .guide-content {
+        padding: 2rem 3%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+

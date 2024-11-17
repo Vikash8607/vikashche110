@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Main Section */
+.brands {
+    padding: 2rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.brands-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.brand-item {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(33% - 2rem);
+}
+p1{
+    color: black;
+}
+
+.brand-item h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.brand-item p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.brand-item a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.brand-item a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .brand-item {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
